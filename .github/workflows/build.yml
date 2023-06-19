@@ -28,7 +28,7 @@ jobs:
       - name: Build and push amd64 image
         uses: docker/build-push-action@v3
         with:
-          context: ./
+          context: .
           file: ./Dockerfile
           platform: linux/amd64
           push: true
