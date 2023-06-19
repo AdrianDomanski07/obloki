@@ -20,7 +20,7 @@ public class OblokiApplication {
 			int serverPort = context.getEnvironment().getProperty("server.port", Integer.class);
 			logger.info("Port TCP: {}", serverPort);
 		}
- 
+
 	}
 
 }
